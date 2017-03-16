@@ -79,6 +79,7 @@ public class Book {
 
 		}
 		throw new BookException("Sorry, book not found.");
+		//shouldnt return anything if the book isnt found? correct?
 		
 	}
 	
